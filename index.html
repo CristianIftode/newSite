@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css" integrity="sha512-UTNP5BXLIptsaj5WdKFrkFov94lDx+eBvbKyoe1YAfjeRPC+gT5kyZ10kOHCfNZqEui1sxmqvodNUx3KbuYI/A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+	<header class="header">
+		<div class="header__top">
+			<div class="header__logo">
+				<img src="" alt="">
+			</div>
+			<div class="header__socialIcon">
+				<a href=""><img src="" alt=""></a>
+				<a href=""><img src="" alt=""></a>
+				<a href=""><img src="" alt=""></a>
+				<a href=""><img src="" alt=""></a>
+			</div>
+		</div>
+		<nav class="header__nav">
+			<a class="header__navLink" href="">Главная</a>
+			<a class="header__navLink" href="">О нас</a>
+			<a class="header__navLink" href="">Галерея</a>
+			<a class="header__navLink" href="">Видео</a>
+			<a class="header__navLink" href="">События</a>
+			<a class="header__navLink" href="">Контакты</a>
+		</nav>
+	</header>
+
+	<main class="main">
+		<section class="mainSlider">
+			<div class="owl-carousel mainSlider__cont">
+				<div class="mainSlider__slide"> Your Content </div>
+				<div class="mainSlider__slide"> Your Content </div>
+				<div class="mainSlider__slide"> Your Content </div>
+				<div class="mainSlider__slide"> Your Content </div>
+			</div>
+		</section>
+
+		<section class="mainCards">
+			<div class="mainCards__item">
+				<img src="" alt="" class="mainCards__icon">
+				<h2 class="mainCards__title">Супер Коллеги</h2>
+				<p class="mainCards__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio beatae perferendis iure aut tempora molestias vel sint libero ducimus deleniti quidem, tempore, impedit similique, sequi voluptates placeat! Quidem, asperiores veritatis.</p>
+				<a href="" class="mainCards__link">Чиатать дальше...</a>
+			</div>
+			<div class="mainCards__item">
+				<img src="" alt="" class="mainCards__icon">
+				<h2 class="mainCards__title">Фото</h2>
+				<p class="mainCards__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem voluptates nemo impedit obcaecati laudantium placeat, recusandae cupiditate quo quis hic eligendi quisquam tempore blanditiis maxime, non neque. Dolorem, pariatur itaque.</p>
+				<a href="" class="mainCards__link">Читать дальше...</a>
+			</div>
+			<div class="mainCards__item">
+				<img src="" alt="" class="mainCards__icon">
+				<h2 class="mainCards__title">Наши номера</h2>
+				<p class="mainCards__text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque eligendi, necessitatibus doloribus fugiat quo iure dicta ea voluptatem, alias dignissimos corporis reiciendis. Recusandae ullam quaerat harum exercitationem totam sapiente porro!</p>
+				<a href="" class="mainCards__link">Читать дальше...</a>
+			</div>
+		</section>
+
+	</main>
+
+	<footer class="footer">
+		<div class="footer__top">
+			<div class="footer__aboutUsLink">
+				<h2>О нас</h2>
+				<ul>
+					<li>Коллектив</li>
+					<li>Корпоративы</li>
+					<li>Кадры</li>
+					<li>Кейсы</li>
+					<li>Проекты</li>
+				</ul>
+			</div>
+			<div class="footer__news">
+				<h2>Новости</h2>
+				<div class="footer__newsCont">
+					<p class="footer__newsItem">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex error quam nostrum, doloribus aperiam nobis repellendus possimus placeat nihil explicabo, unde soluta, vero blanditiis enim quisquam ad obcaecati libero provident.</p>
+					<p class="footer__newsItem">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro obcaecati tenetur eum voluptates nemo, doloremque tempora dolores nihil debitis expedita. Neque, architecto perferendis. Dolorum ab quidem earum laudantium amet voluptate?</p>
+				</div>
+			</div>
+			<div class="footer__contacts">
+				<h2>Контакты</h2>
+				<ul>
+					<li>+7-999-999-99-99</li>
+					<li>ул.Программистская 2</li>
+					<li>info@site.com</li>
+				</ul>
+			</div>
+		</div>
+		<div class="footer__bottom">
+			<span>Сайти работает с 2023 года</span>
+		</div>
+	</footer>
+
+
+	<script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+	<script>
+		$(document).ready(function(){
+			$(".mainSlider__cont").owlCarousel();
+		});
+	</script>
+
+</body>
+</html>

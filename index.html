@@ -34,28 +34,28 @@
 	<main class="main">
 		<section class="mainSlider">
 			<div class="owl-carousel mainSlider__cont">
-				<div class="mainSlider__slide"> Your Content </div>
-				<div class="mainSlider__slide"> Your Content </div>
-				<div class="mainSlider__slide"> Your Content </div>
-				<div class="mainSlider__slide"> Your Content </div>
+				<div class="mainSlider__slide" style="background-image: url('https://cdn-xml.qrz.com/w/wa3hdw/Myrtle_Beach_SC_webp.jpg');"><div class="mainSlider__content">Слайд 1</div></div>
+				<div class="mainSlider__slide" style="background-image: url('https://www.meetnlunch.com/wp-content/uploads/2019/07/post_17187.jpg');"> <div class="mainSlider__content">Слайд 2</div></div>
+				<div class="mainSlider__slide" style="background-image: url('https://grandgames.net/puzzle/source_p/krasivoe_pole.jpg');"> <div class="mainSlider__content">Слайд 3</div> </div>
+				<div class="mainSlider__slide" style="background-image: url('https://opttour.ru/wp-content/uploads/2019/10/Fancybox-dlya-kontenta.jpg');"> <div class="mainSlider__content">Слайд 4</div> </div>
 			</div>
 		</section>
 
 		<section class="mainCards">
 			<div class="mainCards__item">
-				<img src="" alt="" class="mainCards__icon">
+				<img src="https://www.svgrepo.com/show/513998/alt-list.svg" alt="" class="mainCards__icon">
 				<h2 class="mainCards__title">Супер Коллеги</h2>
 				<p class="mainCards__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio beatae perferendis iure aut tempora molestias vel sint libero ducimus deleniti quidem, tempore, impedit similique, sequi voluptates placeat! Quidem, asperiores veritatis.</p>
 				<a href="" class="mainCards__link">Чиатать дальше...</a>
 			</div>
 			<div class="mainCards__item">
-				<img src="" alt="" class="mainCards__icon">
+				<img src="https://www.svgrepo.com/show/513964/alt-camera.svg" alt="" class="mainCards__icon">
 				<h2 class="mainCards__title">Фото</h2>
 				<p class="mainCards__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem voluptates nemo impedit obcaecati laudantium placeat, recusandae cupiditate quo quis hic eligendi quisquam tempore blanditiis maxime, non neque. Dolorem, pariatur itaque.</p>
 				<a href="" class="mainCards__link">Читать дальше...</a>
 			</div>
 			<div class="mainCards__item">
-				<img src="" alt="" class="mainCards__icon">
+				<img src="https://www.svgrepo.com/show/514019/alt-podcast.svg" alt="" class="mainCards__icon">
 				<h2 class="mainCards__title">Наши номера</h2>
 				<p class="mainCards__text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque eligendi, necessitatibus doloribus fugiat quo iure dicta ea voluptatem, alias dignissimos corporis reiciendis. Recusandae ullam quaerat harum exercitationem totam sapiente porro!</p>
 				<a href="" class="mainCards__link">Читать дальше...</a>
@@ -103,7 +103,9 @@
 
 	<script>
 		$(document).ready(function(){
-			$(".mainSlider__cont").owlCarousel();
+			$(".mainSlider__cont").owlCarousel({
+				items: 1
+			});
 		});
 	</script>
 

@@ -54,6 +54,25 @@ body{
 	border-right: 1px solid #201c1e;
 }
 
+.header__navLink_activa{
+	background-color: #290915;
+}
+
+.header__navLink:hover{
+	background-color: #290915;
+	transition: 0.5s;
+}
+
+.header__socialIcon img:hover{
+	transform: scale(1.3);
+	transition: 0.5s;
+}
+
+/* .mainCards__link:hover{
+	filter: invert();
+	transition: 0.5s;
+} */
+
 .main{
 	max-width: 1200px;
 	margin: 0px auto;
@@ -114,6 +133,7 @@ body{
 	text-decoration: none;
 	color: #fff;
 	padding: 10px 20px;
+	transition: 0.5s ease;
 }
 
 .footer{
@@ -185,3 +205,15 @@ body{
 		flex-direction: column;
 	  }
 }
+
+
+    
+    .mainCards__link:hover,:focus {
+	text-shadow: 0 0 5px #ffffff,
+			0 0 10px #ffffff,
+			0 0 20px #ffffff;
+	box-shadow: 0 0 5px #ffffff,
+			0 0 20px #ffffff,
+			0 0 50px #ffffff,
+			0 0 100px #ffffff;
+    }

@@ -155,3 +155,33 @@ body{
 	flex-direction: column;
 	gap: 10px;
 }
+
+
+@media(max-width:650px){
+	.header__nav {
+		display: flex;
+		margin-top: 20px;
+		flex-direction: column;
+		align-items: center;
+	  }
+
+	  .header__navLink {
+		width: calc(100%);
+	  }
+
+	  .mainCards {
+		flex-direction: column;
+	  }
+
+	  .footer__top {
+		flex-direction: column;
+	  }
+	  .footer__top > div {
+		width: calc(100% );
+		padding: 14px;
+	  }
+
+	  .header__top {
+		flex-direction: column;
+	  }
+}
